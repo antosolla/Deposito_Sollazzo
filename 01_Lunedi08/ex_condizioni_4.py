@@ -1,7 +1,7 @@
 eta = int(input("Inserisci la tua eta"))
 flag = False # creo un flag che mi indicherà al match case cosa fare
 
-if (eta >= 18):
+if (eta >= 18): #eseguo controllo su età
     flag=True #maggiorenne, spunto il flag
 
 match flag:
