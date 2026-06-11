@@ -1,0 +1,15 @@
+Cliente:
+    id 
+    nome_cognome
+
+Articolo:
+    nome
+    prezzo
+    quantita
+
+Inventario (magari ne istanzio uno solo)
+    lista di Articolo
+
+Ordini
+    ogni istanza di ordini avra una tupla con (id_ordine, id_cliente, id_articolo)
+
