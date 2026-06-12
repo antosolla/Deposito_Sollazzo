@@ -1,0 +1,18 @@
+Cliente:
+    id 
+    nome_cognome
+
+
+Articolo:
+    nome
+    prezzo
+    quantita
+
+Inventario (magari ne istanzio uno solo)
+    lista di Articolo
+
+Ordini
+    faccio una lista di dizionari (cosi ho sia id_ordine, importo, id_cliente e articolo)
+
+Per quanto riguarda l'accesso, match annidati 
+
